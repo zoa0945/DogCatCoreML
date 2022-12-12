@@ -8,6 +8,9 @@
 import UIKit
 import SnapKit
 
+// TODO: [ ] precision과 recall의 차이점
+// precision: ML모델이 참이라고 판단한 값들 중 실제로 참인 값들의 비율
+// recall: 실제로 참인 값들 중 ML모델이 참이라고 판단한 비율
 class MainViewController: UIViewController {
     
     private let imageView: UIImageView = {
